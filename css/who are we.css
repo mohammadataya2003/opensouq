@@ -1,0 +1,96 @@
+body {
+	background-color: #d7deb8;
+	direction: rtl;
+}
+
+
+.goal {
+	max-width: 220px;
+	text-align: center;
+}
+
+h1 {
+	color: #de920b;
+	font-weight: bold;
+}
+
+h3 {
+	color: #a46c0c;
+	font-weight: bold;
+}
+
+.aboutsouq p {
+	color: wheat;
+	font-size: 23px;
+    margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.goals p{
+	color: #de920b;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+@media screen and (max-width:1199px) {
+
+	.goals .container .row .circle,
+	.goals .container .row .circle_2 {
+		width: 250px;
+		height: 250px;
+		border-radius: 50%;
+		background: wheat;
+		margin-bottom: 20px;
+		padding: 15px;
+	}
+
+	.goals .container .row {
+		justify-content: center;
+	}
+	.goals p{
+		color: rgba(12, 51, 108, .95);
+		font-size: 18px;
+		font-weight: bold;
+	}
+}
+
+
+@media screen and (min-width:1200px) {
+
+	.goals .container .row {
+		height: 525px;
+		border: 10px solid #de920b;
+		padding: 15px 18%;
+		background-color: rgba(221, 221, 221, 0.95);
+		width: 100%;
+	}
+
+	.goals .container .row .circle {
+		position: relative;
+		top: 235px;
+		width: 250px;
+		height: 250px;
+		background: rgba(12, 51, 108, .95);
+		border-radius: 50%;
+		padding: 15px;
+	}
+
+	.goals .container .row .circle_2 {
+		margin-right: 30px;
+		width: 250px;
+		height: 250px;
+		background: rgba(12, 51, 108, .95);
+		border-radius: 50%;
+		padding: 15px;
+
+
+	}
+	.goals p{
+		color: #de920b;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+
+}
